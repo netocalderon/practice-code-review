@@ -1,6 +1,5 @@
+/* eslint-disable jsdoc/require-jsdoc */
 // #todo
-
-'use strict';
 
 /**
  * reverses a string
@@ -9,6 +8,7 @@
  */
 
 // -------- your solutions --------
+
 function reverseString(toReverse = '') {
   if (typeof toReverse !== 'string') {
     throw new TypeError('toReverse must be a string');
@@ -49,4 +49,8 @@ for (const solution of [reverseString]) {
 
 // minified solution for testing your tests
 // prettier-ignore
-function secretSolution(a = '') { if ("string" != typeof a) throw new TypeError("toReverse is not a string"); return a.split("").reverse().join("") }
+/*
+function secretSolution(a = '') {
+  if ("string" != typeof a) throw new TypeError("toReverse is not a string");
+return a.split("").reverse().join("") }
+*/
